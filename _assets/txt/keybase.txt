@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/ayharano
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alexandre.harano.net.br
+  * I am ayharano (https://keybase.io/ayharano) on keybase.
+  * I have a public key ASAjrkNDElg-Sl508AzmjraTMHSLneUZHwMrq_YbY5q0Nwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101cc830a462eda4188e21103f3c31f58e0e90a0b7edf85d0d6db6590f14fbcc86f0a",
+      "host": "keybase.io",
+      "kid": "012023ae434312583e4a5e74f00ce68eb69330748b9de5191f032babf61b639ab4370a",
+      "uid": "1813c13a18d8564cdb560c59042a5b00",
+      "username": "ayharano"
+    },
+    "merkle_root": {
+      "ctime": 1505875870,
+      "hash": "76c2807dbacf2fe60c1bf037a2f851e84f8a90c51e173701c3ecd31e35c419519c669b670093b8e8f89a182eb6cf1199aeb425c37b99e29b684b23340553c824",
+      "hash_meta": "a26649b361977b6dfa93c3cedf53a345522472f689483d60b86cdb4bee6bc6d7",
+      "seqno": 1424367
+    },
+    "service": {
+      "hostname": "alexandre.harano.net.br",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.30"
+  },
+  "ctime": 1505875888,
+  "expire_in": 504576000,
+  "prev": "2fd9d3b9065aeebcf247bfc57fc1d1b3e8388c9e2c680a74c4cb81f3cabf3517",
+  "seqno": 52,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgI65DQxJYPkpedPAM5o62kzB0i53lGR8DK6v2G2OatDcKp3BheWxvYWTFA1B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxY2M4MzBhNDYyZWRhNDE4OGUyMTEwM2YzYzMxZjU4ZTBlOTBhMGI3ZWRmODVkMGQ2ZGI2NTkwZjE0ZmJjYzg2ZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjNhZTQzNDMxMjU4M2U0YTVlNzRmMDBjZTY4ZWI2OTMzMDc0OGI5ZGU1MTkxZjAzMmJhYmY2MWI2MzlhYjQzNzBhIiwidWlkIjoiMTgxM2MxM2ExOGQ4NTY0Y2RiNTYwYzU5MDQyYTViMDAiLCJ1c2VybmFtZSI6ImF5aGFyYW5vIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA1ODc1ODcwLCJoYXNoIjoiNzZjMjgwN2RiYWNmMmZlNjBjMWJmMDM3YTJmODUxZTg0ZjhhOTBjNTFlMTczNzAxYzNlY2QzMWUzNWM0MTk1MTljNjY5YjY3MDA5M2I4ZThmODlhMTgyZWI2Y2YxMTk5YWViNDI1YzM3Yjk5ZTI5YjY4NGIyMzM0MDU1M2M4MjQiLCJoYXNoX21ldGEiOiJhMjY2NDliMzYxOTc3YjZkZmE5M2MzY2VkZjUzYTM0NTUyMjQ3MmY2ODk0ODNkNjBiODZjZGI0YmVlNmJjNmQ3Iiwic2Vxbm8iOjE0MjQzNjd9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYWxleGFuZHJlLmhhcmFuby5uZXQuYnIiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zMCJ9LCJjdGltZSI6MTUwNTg3NTg4OCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiIyZmQ5ZDNiOTA2NWFlZWJjZjI0N2JmYzU3ZmMxZDFiM2U4Mzg4YzllMmM2ODBhNzRjNGNiODFmM2NhYmYzNTE3Iiwic2Vxbm8iOjUyLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQFQLMUMHpUF34NKNauzwkK+hmbWEKOkDVy77ci3BAm7UoMBRKIkwEiPfV6BzlMzZcN0UooHD8quE1GcUd6xgOwqoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBVC6IgKUn6jljdW+2hlws7DxW/UqUQ8yYP6/qaDoJ7RqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ayharano
+
+==================================================================

@@ -61,6 +61,18 @@ jobs:
             PATH="$(pwd)/vendor/bundle/ruby/2.4.0/bin:$(pwd)/vendor/ruby/bin:${PATH}"
             export PATH
             echo "PATH=${PATH}"
+            CONTINUE=1
+            if [ -z "${DOMAIN_VERIFY}" ]; then
+              echo "Environment variable DOMAIN_VERIFY is not set or is empty." && CONTINUE=0
+            fi
+            if [ -z "${GA_TOKEN}" ]; then
+              echo "Environment variable GA_TOKEN is not set or is empty." && CONTINUE=0
+            fi
+            if [ "${CONTINUE}" == 0 ]; then
+              exit 1
+            fi
+            sed -i "s,DOMAIN_VERIFY,${DOMAIN_VERIFY},g" ./index.html
+            sed -i "s,GA_TOKEN,${GA_TOKEN},g" ./_includes/scripts.html
             bundle update
             bundle install --path vendor/bundle
             bundle exec jekyll build --verbose

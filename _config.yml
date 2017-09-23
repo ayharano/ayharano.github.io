@@ -1,5 +1,6 @@
-baseurl: "/resumecards" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "http://localhost:4000/resumecards/" # the base hostname & protocol for your site
+email: "contact+website@harano.net.br"
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "https://alexandre.harano.net.br/" # the base hostname & protocol for your site
 
 exclude:
   - "README.md"
