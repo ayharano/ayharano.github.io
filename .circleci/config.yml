@@ -68,11 +68,18 @@ jobs:
             if [ -z "${GA_TOKEN}" ]; then
               echo "Environment variable GA_TOKEN is not set or is empty." && CONTINUE=0
             fi
+            if [ -z "${DESCRIPTION_CONTENT}" ]; then
+              echo "Environment variable DESCRIPTION_CONTENT is not set or is empty." && CONTINUE=0
+            fi
             if [ "${CONTINUE}" == 0 ]; then
               exit 1
             fi
+            KEYWORDS_CONTENT="${KEYWORDS_CONTENT},$(grep 'keywords:' _posts/* | sed 's,.*keywords:[[:space:]]*,,' | tr ',' '\n' | sed 's,^[[:space:]]*,,' | sed 's,[[:space:]]*$,,' | sort -u | tr '\n' ',')"
+            KEYWORDS_CONTENT="$(echo ${KEYWORDS_CONTENT} | tr ',' '\n' | grep -v '^[[:space:]]*$' | sed 's,^[[:space:]]*,,' | sed 's,[[:space:]]*$,,' | sort -u | tr '\n' ',' | sed 's|,$||')"
             sed -i "s,DOMAIN_VERIFY,${DOMAIN_VERIFY},g" ./index.html
             sed -i "s,GA_TOKEN,${GA_TOKEN},g" ./_includes/scripts.html
+            sed -i "s%KEYWORDS_CONTENT%${KEYWORDS_CONTENT}%g" ./index.html
+            sed -i "s%DESCRIPTION_CONTENT%${DESCRIPTION_CONTENT}%g" ./index.html
             bundle update
             bundle install --path vendor/bundle
             bundle exec jekyll build --verbose
