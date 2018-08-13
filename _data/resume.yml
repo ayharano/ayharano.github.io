@@ -6,7 +6,7 @@ demo: false
 
 photo: "https://avatars3.githubusercontent.com/u/13336?s=150"
 name: "Alexandre Yukio Harano"
-copy: 'Among my professional tasks, I am better known as a former technical instructor from <a href="http://ipv6.br/" target="_blank">IPv6.br</a> and currently as a developer for <a href="https://ix.br/" target="_blank">IX.br</a>. In my personal life, I would like to say that I live with my wife and our beloved puppies.'
+copy: 'Among my professional tasks, I am better known as a former technical instructor from <a href="http://ipv6.br/">IPv6.br</a> and as a former developer for <a href="https://ix.br/">IX.br</a>. In my personal life, I would like to say that I live with my wife and our beloved puppies.'
 
 # Color scheme based on http://www.materialui.co/colors.
 # Possible values:
